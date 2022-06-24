@@ -97,6 +97,10 @@
       <Project>{3315cc12-e488-48df-9127-8fb7cfbd4af3}</Project>
       <Name>MathOperations</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PrivitiveDataBase\PrivitiveDataBase.csproj">
+      <Project>{8182d2dc-33d5-49d5-9615-6fe8c05ebf6d}</Project>
+      <Name>PrivitiveDataBase</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

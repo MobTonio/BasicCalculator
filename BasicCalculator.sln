@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolishAdvancedConversion", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorUnitTests", "CalculatorUnitTests\CalculatorUnitTests.csproj", "{99E8DD82-11E7-49B6-9D91-B20A771635DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrivitiveDataBase", "PrivitiveDataBase\PrivitiveDataBase.csproj", "{8182D2DC-33D5-49D5-9615-6FE8C05EBF6D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{99E8DD82-11E7-49B6-9D91-B20A771635DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99E8DD82-11E7-49B6-9D91-B20A771635DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99E8DD82-11E7-49B6-9D91-B20A771635DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8182D2DC-33D5-49D5-9615-6FE8C05EBF6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8182D2DC-33D5-49D5-9615-6FE8C05EBF6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8182D2DC-33D5-49D5-9615-6FE8C05EBF6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8182D2DC-33D5-49D5-9615-6FE8C05EBF6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

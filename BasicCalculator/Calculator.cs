@@ -16,7 +16,6 @@ namespace BasicCalculator
     }
     internal class Calculator : ICalculator
     {
-        //[[7]]+[[7]]
         public string Calculate(string expr)
         {
             IParser parser = new Parser();

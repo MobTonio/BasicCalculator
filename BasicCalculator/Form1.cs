@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using PrivitiveDataBase;
 
 namespace BasicCalculator
 {
@@ -61,12 +62,26 @@ namespace BasicCalculator
 
         private void buttonEquals_Click(object sender, EventArgs e)
         {
+            string expresion = outputTextBox.Text.ToString();
+
             outputTextBox.Text = calculator.Calculate(outputTextBox.Text);
+
+            DBHelper.WriteExpression(expresion, outputTextBox.Text);
         }
 
         private void buttonHistory_Click(object sender, EventArgs e)
         {
+            string[] history = DBHelper.ReadExpressions();
 
+            string res = "";
+            int i = 0;
+            while (history.Length > i)
+            {
+                res += history[i] + " = " + history[i+1] + "\n";
+                i += 2;
+            }
+
+            MessageBox.Show(res);
         }
     }
 }
